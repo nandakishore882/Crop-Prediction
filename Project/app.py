@@ -72,5 +72,6 @@ def predict():
     })
     return redirect(url_for('home') + '?' + params)
 
+#this is main
 if __name__ == '__main__':
     app.run(debug=True)
